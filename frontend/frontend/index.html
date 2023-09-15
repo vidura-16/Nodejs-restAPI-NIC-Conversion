@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login and Registration</title>
+</head>
+<body>
+    <h1>Convert Your NIC</h1>
+    <button id="showLogin" class="btn">Login</button>
+    <button id="showRegistration" class="btn">Register</button>
+
+    <div id="loginForm" class="form-container">
+        <h1>Login</h1>
+        <form id="loginForm">
+            <input type="text" id="loginUsername" class="input-field" placeholder="Username" required><br>
+            <input type="password" id="loginPassword" class="input-field" placeholder="Password" required><br>
+            <button type="submit" class="btn">Login</button>
+        </form>
+        <div id="loginMessage" class="message"></div>
+    </div>
+
+    <div id="registrationForm" class="form-container">
+        <h1>Registration</h1>
+        <form id="registrationForm">
+            <input type="text" id="regUsername" class="input-field" placeholder="Username" required><br>
+            <input type="password" id="regPassword" class="input-field" placeholder="Password" required><br>
+            <button type="submit" class="btn">Register</button>
+        </form>
+        <div id="registrationMessage" class="message"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
