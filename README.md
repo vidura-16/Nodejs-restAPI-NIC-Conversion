@@ -1,4 +1,4 @@
-# nice-conversion
+# nic-conversion
  Nodejs-restAPI
 # NIC Conversion REST API and Dashboard
 
